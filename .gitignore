@@ -1,0 +1,48 @@
+# Ignore R and RStudio files
+
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Ignore temporary files and cache
+
+*.tmp
+*.log
+*.swp
+*.bak
+*.out
+*.Rproj
+
+# Ignore DESeq2 intermediate files
+
+*.rds
+*.RDS
+*.Rdata
+*.Rhistory
+
+# Ignore data files that are too large or sensitive
+
+*.fastq
+*.fq
+*.bam
+*.sam
+*.bai
+*.vcf
+*.fasta
+*.fa
+*.gz
+
+
+
+# Ignore system or editor files
+
+.DS_Store
+Thumbs.db
+*.vs*
+.idea/
+.vscode/
+
+# Git keep placeholder
+
+!*/.gitkeep

@@ -1,0 +1,13 @@
+name: rna_seq
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fastqc=0.11.9          
+  - trimmomatic=0.39       
+  - hisat2=2.2.1           
+  - samtools=1.17          
+  - subread=2.0.3          
+  - multiqc=1.13           
+  - openjdk=8              
